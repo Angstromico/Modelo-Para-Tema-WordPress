@@ -165,9 +165,12 @@ aside .card-footer a {
   color: var(--primary);
 }
 /* Clases */
+.card-img-top {
+  width: auto;
+  height: 200px;
+}
 @media (min-width: 768px) {
   .card-img-top {
-    width: auto;
     height: 250px;
   }
 }
